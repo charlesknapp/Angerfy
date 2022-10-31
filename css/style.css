@@ -10,6 +10,8 @@ html {
 body{
 	font-family: 'Roboto', sans-serif;
     background: url(https://i.ibb.co/FJX3q89/sad-person.jpg) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 }
 
 #header-title {

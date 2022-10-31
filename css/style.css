@@ -1,0 +1,162 @@
+html {
+    background: url(https://i.ibb.co/FJX3q89/sad-person.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    -webkit-user-select: none;
+    user-select: none;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+    background: url(https://i.ibb.co/FJX3q89/sad-person.jpg) !important;
+}
+
+#header-title {
+    color: WhiteSmoke !important;
+}
+
+#container{
+    width: 800px; /*backup if percentage fails */
+    margin: 75px auto;
+    padding: 20px;
+    width: 70%;
+    background: #303030;
+    border-radius: 5px;
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.12);
+    border: 2px solid rgba(128,128,128,0.10);
+    margin-bottom: 10px;
+}
+#container h2{
+	text-align:center;
+	color:#045;
+}
+
+#quoteContainer{
+	width:75%;
+	background: rgba(105, 105, 105, 0.2);
+    color: silver;
+    border-radius: 4px;
+	padding:10px;
+	margin:30px auto;
+	text-align: center;
+}
+#buttonContainer{
+	width: 100%;
+	text-align: center;
+}
+#quoteButton{
+    width: 200px;
+    margin-top: 10px;
+    border: 2px solid #a5a5a5;
+    color: #d3d3d3;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	background:#707070;
+	color: #fff;	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+}
+#quoteGenius{
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
+/* NAVBAR STYLING */
+nav.navbar.navbar-expand-lg.bg-light {
+    background-color: #202020 !important;
+}
+nav.navbar.navbar-expand-lg.bg-light {
+    background-color: #202020 !important;
+    border-bottom: 2px solid rgba(128,128,128,0.10);
+}
+a.navbar-brand {
+    color: firebrick;
+    font-weight: bold;
+}
+a.navbar-brand:hover {
+    color: red;
+}
+a.nav-link {
+    color: silver !important;
+}
+a.nav-link:hover {
+    color: rgb(255, 95, 95) !important;
+}
+a.nav-link.active {
+    color: whitesmoke !important;
+    border-bottom: 2px solid rgb(255 61 61 / 25%);
+    border-radius: 12px;
+    font-weight: bold;
+}
+.github {
+    display: flex;
+    align-items: center;
+}
+
+/*MEDIA QUERIES*/
+@media screen and(max-width:760px){
+	#quoteButton,#addNew{
+		display: block;
+	}
+}
+p#angerLevel {
+    color: silver;
+    margin: 0 auto !important;
+}
+.angerlevel.pills {
+    padding: 6px 10px 6px 10px;
+    color: silver;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    max-width: 200px;
+    align-items: center;
+    grid-gap: 10px;
+}
+.pill {
+    padding-right: 2px;
+}
+.pill:hover {
+    transform: scale(1.3);
+    color: #dd3636;
+}
+.pill-container {
+    display: flex;
+    column-gap: 10px;
+    padding: 4px;
+    background: rgba(32,32,32,0.75);
+    border-radius: 4px;
+    max-width: 450px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.12);
+    border: 2px solid rgba(128,128,128,0.10);
+}
+
+/* FOOTER CONTAINER */
+.footer-container {
+    border-top: 2px solid rgba(128,128,128,0.10);
+    text-decoration: none !important;
+}
+.copyright-button {
+    color:rgb(255, 95, 95);
+}
+.copyright-button:hover {
+    color: #ffd0d0 !important;
+}

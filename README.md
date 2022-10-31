@@ -1,4 +1,4 @@
-# Angerfy
+# 😡 Angerfy
 Generate various quotes!<br>
 Originally started as an anger-based quote generator, now provides many different quote variations and options!
 

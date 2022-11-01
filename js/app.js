@@ -25,35 +25,39 @@ let quotes = [
     `Anger is the enemy of non-violence and pride is a monster that swallows it up. - Mahatma Gandhi`,
     `When angry count to ten before you speak. If very angry, count to one hundred. - Thomas Jefferson`,
     `For every minute you remain angry, you give up sixty seconds of peace of mind. - Ralph Waldo Emerson`,
-    `Anger dwells only in the bosom of fools. - Albert Einstein`
+    `Anger dwells only in the bosom of fools. - Albert Einstein`,
+    `The best fighter is never angry. - Lao Tzu`,
+    `Angry people want you to see how powerful they are... loving people want you to see how powerful You are. - Chief Red Eagle`,
+    `You can’t selectively numb your anger, any more than you can turn off all lights in a room, and still expect to see the light. - Shannon L. Alder`,
+    `Do not let your anger lead to hatred, as you will hurt yourself more than you would the other. - Stephen Richards`,
+    `If mental abuse was a punishable crime, a lot of parents would be in jail serving a long term. - Maddy Malhotra`,
+    `If people keep stepping on you, wear a pointy hat. - Joyce Rachelle`,
+    `My anger is more likely to do me more harm than your wrong. - Seneca`,
+    `Talking angry is better than angry silence. - Todd McCaffrey`,
+    `One moment of anger ruins a lifetime of dreams. - Abhijit Naskar`,
+    `Sacrifice your ego for inner peace. - Shunya`,
+    `God created anger to show your conflict not to show your hate. - P.S. Jagadeesh Kumar`,
+    `There should be anger management classes for those of us who bottle it up. - Joyce Rachelle`,
+    `What is bitterly done in uncontrolled anger cannot be undone. - Vinod Varghese Antony`,
+    `If I don’t own my anger I can be certain that it will own me. - Craig D. Lounsbrough`,
+    `Control your anger, before your anger starts controlling you. - Atef Ashab Uddin Sahil`
   ];
 
   document.addEventListener("DOMContentLoaded", function(event) {
-    // Random quote of the day generator
+    
     const randomQuote = function() {
       document.querySelector('#quoteGenius').textContent = `"${quotes[Math.floor(Math.random() * quotes.length)]}"`;
     };
     randomQuote();
   
-    // Part 8
   document.querySelector('#quoteButton').addEventListener('click', (evt) => {
     $.notify("Angry Quote Generated", 'info')
     randomQuote()
   })
   
-    // Part 9
-  
-  document.querySelectorAll('.blog-post').forEach((item) => {
-    item.addEventListener('mouseout', (evt) => {
-      evt.currentTarget.classList.toggle('purple')
-    })
-    item.addEventListener('mouseenter', (evt) => {
-    evt.stopPropagation()
-    evt.currentTarget.classList.toggle('red')
-    })
+
+  //Maintenance
+  document.querySelector('.angerlevel.pills').addEventListener('click', (evt) => {
+    $.notify("Unavailable at this time.", 'error')
   })
-  
-  
-  
   });
-  

@@ -1,15 +1,9 @@
 html {
-    background: url(https://i.ibb.co/FJX3q89/sad-person.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
     -webkit-user-select: none;
     user-select: none;
 }
 body{
 	font-family: 'Roboto', sans-serif;
-    background: url(https://i.ibb.co/FJX3q89/sad-person.jpg) !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
